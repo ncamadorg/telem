@@ -1,0 +1,8 @@
+Por favor, advierte que todas las claves con notación en corchetes son convertidas a string a menos que éstas sean Symbols, ya que los nombres de las propiedades (claves) en Javascript pueden ser sólo strings o Symbols (en algún momento, los nombres privados también serán agregados a medida que la propuesta de los campos de la clase progrese, pero no las usarás con el formato []). Por ejemplo, en el código anterior, cuando la clave objeto es añadida a miObjeto, Javascript llamará al método obj.toString(), y usará el resultado de ésta llamada (string) como la nueva clave.
+
+También puedes acceder a las propiedades mediante el uso de un valor de cadena que se almacena en una variable:
+var nombrePropiedad = "marca";
+miAuto[nombrePropiedad] = "Ford";
+
+nombrePropiedad = "modelo";
+miAuto[nombrePropiedad] = "Mustang";
