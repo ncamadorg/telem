@@ -1,7 +1,7 @@
-#Acceso sistema de gestión NFS server
-##Acerca del sistema
+# Acceso sistema de gestión NFS server
+## Acerca del sistema
 Es un sistema que se encarga de conectar el servicio NFS a través de un servicio web que permita a los operarios loggearse al sistema y acceder de manera fácil y sencilla a las carpetas de facturación, reportes y cuentas por cobrar.
-###Con el sistema puede
+### Con el sistema puede
 -	Iniciar sesión en el servidor
 -	Acceder a los archivos y carpetas del servidor según el departamento
 -	Descargar los archivos desde el servidor
